@@ -35,14 +35,17 @@ namespace TicTacToeGame
                 if (choice.ToLower() == "x")
                 {
                     Console.WriteLine("\nComputer choice is \'O\'");
+                    break;
                 }
                 else if (choice.ToLower() == "o")
                 {
                     Console.WriteLine("\nComputer choice is \'X\'");
+                    break;
                 }
                 else
                 {
                     Console.WriteLine("\nWrong choice");
+                    break;
                 }
             }
         }
