@@ -15,6 +15,8 @@ namespace TicTacToeGame
             // Calling method of TicTacToe class
             game.CreateBoard();
 
+            game.PlayGame();
+
         }
     }
 }

@@ -23,5 +23,28 @@ namespace TicTacToeGame
                 board[i] = '-';
             }
         }
+
+        // method to play game
+        public void PlayGame()
+        {
+            Console.Write("\nEnter youy choice: ");
+            string choice = Console.ReadLine();
+
+            while (true)
+            {
+                if (choice.ToLower() == "x")
+                {
+                    Console.WriteLine("\nComputer choice is \'O\'");
+                }
+                else if (choice.ToLower() == "o")
+                {
+                    Console.WriteLine("\nComputer choice is \'X\'");
+                }
+                else
+                {
+                    Console.WriteLine("\nWrong choice");
+                }
+            }
+        }
     }
 }
