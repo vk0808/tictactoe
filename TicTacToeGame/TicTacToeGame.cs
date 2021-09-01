@@ -49,5 +49,21 @@ namespace TicTacToeGame
                 }
             }
         }
+
+        // method to display the board
+        public void Display()
+        {
+            Console.Write($"{new string('-', 13)}\n");
+            for (int i = 1; i <= 3; i++)
+            {
+                Console.Write("| ");
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write($"{board[i + j]} | ");
+                }
+                Console.WriteLine("");
+            }
+            Console.Write($"{new string('-', 13)}\n");
+        }
     }
 }
