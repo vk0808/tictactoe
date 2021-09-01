@@ -12,7 +12,7 @@ namespace TicTacToeGame
         // constructor
         public TicTacToeGame()
         {
-            board = new char[11];
+            board = new char[10];
         }
 
         // method to create empty board
